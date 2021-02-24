@@ -11,12 +11,10 @@ h1 {
 }
 
 
-tr:nth-child(odd)  {
-  background-color: deeppink;
+tr:nth-child(odd)  {background-color: deeppink;
 }
 
-tr:nth-child(even){
-  background-color: lightpink;
+tr:nth-child(even){background-color: lightpink;
 }
 
 
