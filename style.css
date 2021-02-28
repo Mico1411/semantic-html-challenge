@@ -16,10 +16,11 @@ tr:nth-child(odd)  {
 tr:nth-child(even) {
   background-color: #e495e4
 }
-thead>tr {
+thead>tr, tfoot>tr {
   font-family: 'Rock Salt', cursive;
   color: white;
   background-image:url("./assets/leopardskin.jpg") ;
 }
+
 
 
