@@ -10,14 +10,15 @@ h1 {
   color: #373fff;
 }
 tr:nth-child(odd)  {
-  background-color: rgb(189, 125, 135)
+  background-color: lightpink
 }
 tr:nth-child(even) {
-  background-color: rgb(139, 31, 47);
+  background-color: deeppink
 }
 thead>tr {
   font-family: 'Rock Salt', cursive;
   color: white;
   background-image:url("./assets/leopardskin.jpg") ;
 }
+
 
