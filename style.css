@@ -13,7 +13,7 @@ tr:nth-child(even) {
 }
 thead>tr, tfoot>tr {
   font-family: 'Rock Salt', cursive;
-  color: white;
+  color: rgb(197, 103, 103);
   background-image:url("./assets/leopardskin.jpg") ;
   
 }
