@@ -13,11 +13,12 @@ tr:nth-child(even) {
 }
 thead>tr, tfoot>tr {
   font-family: 'Rock Salt', cursive;
-  color: rgb(197, 103, 103);
+  color: white;
   background-image:url("./assets/leopardskin.jpg") ;
   
 }
 tbody {
+  border: deeppink;
   font-family: 'Helvetica New', sans-serif;
   background-image: url("./assets/noise.png");
 }
