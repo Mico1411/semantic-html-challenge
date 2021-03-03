@@ -12,6 +12,8 @@ tr:nth-child(even) {
   background-color: #e495e4
 }
 thead>tr, tfoot>tr {
+  border-style: solid;
+  border-color: #800080;
   font-family: 'Rock Salt', cursive;
   color: white;
   background-image:url("./assets/leopardskin.jpg") ;
