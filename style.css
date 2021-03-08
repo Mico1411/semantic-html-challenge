@@ -46,6 +46,14 @@ tbody {
   font-size: 1em;
   text-align:center;
 }
+  
+  caption {
+    padding:10px;
+    caption-side: bottom;
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+    color: grey;
+  }
 
 
 
