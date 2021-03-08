@@ -1,11 +1,12 @@
 /* CSS files add styling rules to your content */
 
 table{
-  width: 15px;;
+  width:70%;
   border-style: solid;
   border-width: 3px;
   border-collapse:collapse; 
   border-color:#800080;
+  table-layout:fixed;
 }
 th {
   border-style: solid;
@@ -43,8 +44,9 @@ tbody {
   text-align: unset;
   font-family: 'Helvetica New', sans-serif;
   font-size: 1em;
-  
+  text-align:center;
 }
+
 
 
 
