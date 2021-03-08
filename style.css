@@ -40,7 +40,7 @@ tfoot {
 }
 
 tbody {
-  text-align: center;
+  text-align: unset;
   font-family: 'Helvetica New', sans-serif;
   font-size: 1em;
   
