@@ -1,34 +1,50 @@
 /* CSS files add styling rules to your content */
-html{
-  font-size: medium;
-}
+
 table{
+  width:100%;
   border-style: solid;
-  border-width:2px;
-  border-color:#800080
-  border-collapse- collapse; 
+  border-width: 3px;
+  border-collapse:collapse; 
+  border-color:#800080;
 }
-
-
-
-tr:nth-child(odd)  {
-
-  background-color: #ff33cc
-
+th {
+  border-style: solid;
+  border-width: 3px;
+  border-color:#800080;
+  table-layout: auto;
+  width: 100%;
+  padding: 5px;
 }
-tr:nth-child(even) {
-  background-color: #e495e4
+tbody>tr:nth-child(odd)  {
+
+  background-color: #ff33cc;
+  background-image: url("./assets/noise.png");
 }
-thead>tr, tfoot>tr {
+tbody>tr:nth-child(even) {
+  background-color: #e495e4;
+  background-image: url("./assets/noise.png");
+  }
+thead {
   font-family: 'Rock Salt', cursive;
   color: white;
+  font-size: 1em;
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg"); 
  
 }
-tbody {
-  font-family: 'Helvetica New', sans-serif;
-  font-size: 1rem;
-  background-image: url("./assets/noise.png");
+tfoot {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 1em;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg"); 
+ 
 }
+
+tbody {
+  text-align: center;
+  font-family: 'Helvetica New', sans-serif;
+  font-size: 1em;
+  
+}
+
 
 
